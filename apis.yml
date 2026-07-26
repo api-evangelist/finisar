@@ -1,7 +1,23 @@
 aid: finisar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finisar.png
 name: Finisar
-description: Finisar is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Finisar Corporation was a manufacturer of optical communications components and subsystems
+  (optical transceivers, semiconductor lasers, and related fiber-optic hardware). It was surfaced as a
+  portfolio company of Battery Ventures. Finisar was acquired by II-VI Incorporated in 2019, and the
+  combined company was subsequently rebranded as Coherent Corp. The Finisar brand is retired
+  (finisar.com issues a 301 redirect to coherent.com, verified 2026-07-19) and has no independent public
+  developer, API, or documentation surface. No API artifacts are applicable to this stub.
 url: https://raw.githubusercontent.com/api-evangelist/finisar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +25,28 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired-defunct-brand
+x-acquired-by: coherent
+x-redirects-to: https://www.coherent.com/
+x-enrichment-outcome: no-api-surface (defunct hardware brand, finisar.com 301 -> coherent.com, verified 2026-07-19)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Optical Communications
+- Fiber Optics
+- Semiconductors
+- Hardware
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
