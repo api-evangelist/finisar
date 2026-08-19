@@ -29,7 +29,7 @@ x-status: acquired-defunct-brand
 x-acquired-by: coherent
 x-redirects-to: https://www.coherent.com/
 x-enrichment-outcome: no-api-surface (defunct hardware brand, finisar.com 301 -> coherent.com, verified 2026-07-19)
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
